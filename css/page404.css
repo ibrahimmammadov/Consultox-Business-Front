@@ -1,0 +1,48 @@
+* {
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#error {
+  background-image: url("../images/404.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+}
+#error h1 {
+  line-height: 300px;
+  font-size: 8em;
+}
+#error h2 {
+  font-size: 4em;
+}
+#error h4 {
+  font-size: 1.5em;
+}
+#error button {
+  color: white;
+  border-radius: 40px;
+  background-color: #d2b871;
+  padding: 1% 1% 1% 1%;
+  font-size: 1.6em;
+}
+#error button:hover {
+  background-color: transparent;
+  border: 1.5px solid #d2b871;
+  color: #d2b871;
+}
+#error button:hover a {
+  color: #d2b871;
+  text-decoration: none;
+}
+#error button a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=404.css.map */

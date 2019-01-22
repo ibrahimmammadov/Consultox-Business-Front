@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#contactUs {
+  background-image: url("../images/contact.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+#contactUs .textDiv {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#contactUs h1, #contactUs span {
+  color: white;
+}
+#contactUs span, #contactUs a, #contactUs h1 {
+  text-align: center;
+}
+#contactUs a {
+  color: #d2b871;
+  text-decoration: none;
+}
+#contactUs a:hover {
+  text-decoration: none;
+  color: #d2b871;
+}
+
+#dropMessage {
+  padding-top: 5%;
+}
+#dropMessage h2 {
+  font-weight: bold;
+}
+#dropMessage p {
+  color: #797979;
+}
+#dropMessage input, #dropMessage textarea {
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #d5d5d5;
+  outline: none;
+}
+#dropMessage input {
+  margin-top: 10%;
+}
+#dropMessage button {
+  background-color: #d2b871;
+  color: white;
+  font-weight: bold;
+  padding: 2% 5%;
+  border-radius: 25px;
+}
+#dropMessage button:hover {
+  background-color: white;
+  color: #d2b871;
+  border: 2px solid #d2b871;
+}
+#dropMessage ul {
+  margin-top: 15%;
+  list-style-type: none;
+  border-left: 1px solid black;
+}
+#dropMessage ul span {
+  color: #d2b871;
+  margin-bottom: 3%;
+}
+#dropMessage ul li {
+  margin-bottom: 5%;
+}
+
+#map {
+  padding-top: 5%;
+}
+
+/*# sourceMappingURL=contactUs.css.map */

@@ -1,0 +1,145 @@
+$maincolor1:#d2b871;
+$maincolor2:#25baa9;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#overview{
+    background-image: url("../images/service.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    position: relative;
+
+   .textDiv{
+       position: absolute;
+       top: 30%;
+       left: 50%;
+       transform: translateX(-50%);
+   }
+    h1,span{
+        color: white;
+    }
+    span,a,h1{
+        text-align: center;
+    }
+    a{
+        color: $maincolor1;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+            color: $maincolor1;
+        }
+    }
+   
+}
+
+
+#mainOverview{
+    padding-top: 5%;
+    img{
+        width: 100%;
+    }
+.leftPart{
+    .leftUl{
+        li{
+            background-color: #f1f1f1;
+            margin-top: 3%;
+            border-left: 4px solid rgb(210, 210, 210);
+            a{
+                padding: 7%;
+                display: block;
+                text-decoration: none;
+                font-weight: bolder;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+             &:hover{background-color: $maincolor1;
+            a{
+                color: white;
+            }
+            border-left:none;
+
+        }
+    }
+        .hoverLi{
+            background-color: $maincolor1;
+            a{
+                color: white;
+            }
+            border-left:none;
+        }
+    }
+    ul{
+        padding-left: 0;
+        list-style: none;
+        li{
+            a{
+                color: black;
+            }
+        }
+    }
+    img{
+        width: 100%;
+    }
+    h4{
+        font-weight: bold;
+        padding-top: 4%;
+        position: relative;
+        &:after{
+            position: absolute;
+            content: '';
+            left: 55%;
+            margin-left: 10px;
+            bottom: 8px;
+            width: 30px;
+            height: 2px;
+            background-color: #d2b871;
+        }
+    }
+    p{
+        font-weight: bold;
+        &:nth-of-type(2n){
+            padding-left: 11%;
+        }
+    }
+    i{
+        font-size: 1.3em;
+        padding-right: 3%;
+        color: #797979;
+    }
+}
+
+
+.rightPart{
+    h3{
+        padding-top: 5%;
+        padding-bottom: 2%;
+        font-weight: bolder;
+    }
+    p{
+        color: #797979;
+    }
+    .textImgDiv{
+        padding-top: 5%;
+        img{
+            width: 100%;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            li{
+              font-size: 1em;
+              color: #999999;
+            
+            i{
+                color: $maincolor1;
+                padding-right: 4%;
+            }
+        }
+        }
+    }
+}
+
+}

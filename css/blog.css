@@ -1,0 +1,103 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#blog {
+  background-image: url("../images/service.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+#blog .textDiv {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#blog h1, #blog span {
+  color: white;
+}
+#blog span, #blog a, #blog h1 {
+  text-align: center;
+}
+#blog a {
+  color: #d2b871;
+  text-decoration: none;
+}
+#blog a:hover {
+  text-decoration: none;
+  color: #d2b871;
+}
+
+#mainBlogs {
+  padding-top: 5%;
+}
+#mainBlogs P:first-of-type {
+  color: #d2b871;
+}
+#mainBlogs p {
+  padding: 4% 0 0 0;
+}
+#mainBlogs ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0 !important;
+}
+#mainBlogs ul li {
+  color: #b8b8b8;
+  padding-right: 3% !important;
+}
+#mainBlogs ul p:last-of-type {
+  color: #b8b8b8;
+}
+#mainBlogs button {
+  background-color: #d2b871;
+  color: white;
+  font-weight: bolder;
+  border-radius: 25px;
+  padding: 1% 4% 1% 4%;
+}
+#mainBlogs button:hover {
+  background-color: white;
+  border: 2px solid #d2b871;
+  color: #d2b871;
+}
+#mainBlogs img {
+  width: 101%;
+}
+#mainBlogs .imgDiv {
+  padding: 0;
+  overflow: hidden;
+}
+#mainBlogs .imgDiv .imgDivInner {
+  overflow: hidden;
+  padding: 0 !important;
+  position: relative;
+}
+#mainBlogs .imgDiv .imgDivInner img {
+  width: 100%;
+  transition: all 0.6s;
+}
+#mainBlogs .imgDiv .imgDivInner .layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  background-color: #23527c73;
+}
+#mainBlogs .imgDiv .imgDivInner:hover .layout {
+  width: 100%;
+  height: 100%;
+}
+#mainBlogs .imgDiv:hover img {
+  transform: scale(1.1);
+}
+#mainBlogs .imgDiv .blogparts {
+  margin-top: 10% !important;
+}
+#mainBlogs .blogparts {
+  margin-top: 7%;
+}
+
+/*# sourceMappingURL=blog.css.map */
